@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "hvh",
+  "version": "${version}",
+  "name": "HvH Client",
+  "description": "Client mod for HvH servers",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.hvh.HvhClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": ">=26.2-",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
