@@ -209,4 +209,4 @@ class Fullbright extends Module {
     void onDisable(Minecraft mc) {
         if (mc.player != null) mc.player.removeEffect(MobEffects.NIGHT_VISION);
     }
-}
+             }
